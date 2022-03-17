@@ -33,7 +33,7 @@ header {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 990px;
     margin: 0 auto;
 }
 
@@ -164,7 +164,7 @@ header {
     background-color: var(--color-white);
     border-radius: 8px;
     box-shadow: 0 4px 20px var(--shadow-black);
-    margin: 10px;
+    margin: 15px;
     
 }
 .card-games img {
@@ -210,6 +210,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.container-form {
+    width: 100%;
+    max-width: 790px;
+    margin: 0 auto;
 }
 
 .section-form h2 {
@@ -345,7 +351,7 @@ footer {
     margin: 37px 0 37px 0;
 }
 
-@media(min-width: 420px) {
+@media(min-width: 576px) {
 
     html {
         font-size: 16px;
@@ -363,6 +369,10 @@ footer {
         max-width: 642px;
         margin: 0 auto;
     }
+
+    .main-content-news {
+        padding: 15px 40px;
+    }
 }
 
 @media(max-width: 768px) {
@@ -374,4 +384,5 @@ footer {
     .nav-list {
         display: none;
     }
+
 }
